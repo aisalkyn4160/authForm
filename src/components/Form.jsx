@@ -49,7 +49,6 @@ const Form = () => {
                 }
             })
             .then(data => {
-                alert('Вы вошли!');
                 localStorage.setItem('token', data.idToken)
                 setRegistrationData(data)
                 setIsRegistered(true)
@@ -93,7 +92,6 @@ const Form = () => {
                 })
             .then(data => {
                 console.log(data);
-                alert('Вы зарегистрировались!');
                 localStorage.setItem('token', data.idToken)
                 setRegistrationData(data)
                 setIsRegistered(true)

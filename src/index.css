@@ -19,7 +19,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../public/assets/imgs/image-from-rawpixel-id-2374511-original.png');
+  background-image: url('../public/assets/imgs/image-from-rawpixel-id-2374511-original.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,11 +87,12 @@ input {
   height: 100px;
   background-color: #f5ae41;
   padding: 20px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .home_header h1{
-  text-align: center;
   color: #fff;
 }
 
@@ -101,10 +102,6 @@ input {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 5px;
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
   font-weight: bolder;
 }
 
